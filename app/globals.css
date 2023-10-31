@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,41 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.d-invisible {
+  visibility: hidden
+}
+
+.btn-remove {
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  color: #000;
+  transition: transform 0.2s;
+}
+
+.btn-remove:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.task-row {
+  line-height: 2.5;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.task-row:hover {
+  transform: translateX(2px);
+}
+
+
+.completed-task {
+  text-decoration: line-through;
+  color: red;
 }

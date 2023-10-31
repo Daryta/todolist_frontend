@@ -1,0 +1,18 @@
+{
+    "tasks":
+        [
+            {
+            "id": "string",
+            "todo": "string",
+            "isCompleted": "boolean",
+            "createdAt": "timestamp"
+            },
+            {
+            "id": "string",
+            "todo": "string",
+            "isCompleted": "boolean",
+            "createdAt": "timestamp"
+            }
+     
+        ]
+}
